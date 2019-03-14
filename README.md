@@ -10,12 +10,12 @@ Ensure that you have ImageMagick and Ghostscript installed. If not, follow the i
 
 Create a virtual environment, install Wand, and run the script.
 
-'''
+```
 python3 -m venv venv
 . venv/bin/activate
 pip install Wand
 python PDFConverter.py PDFFileName PNGFileName
-'''
+```
 
 ## Build With
 
