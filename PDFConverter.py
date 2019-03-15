@@ -1,9 +1,7 @@
 '''
-    Created by Elijah Sawyers on 03/07/19.
-
-    Abstract:
-    This file contains the functionality for converting a pdf to png and
-    doing coordinates conversions between the two.
+    Author: Elijah Sawyers
+    Date: 03/07/19
+    Overview: This file contains the functionality for converting a pdf to png.
 '''
 
 import sys
