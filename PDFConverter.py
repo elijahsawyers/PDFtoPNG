@@ -7,7 +7,7 @@
 import sys
 from wand.image import Image
 
-'''This class can convert pdf files into png files.'''
+'''This class can convert a pdf file to a png file.'''
 class PDFConverter: 
 
     # Initialize the PDF converter.
