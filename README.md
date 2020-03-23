@@ -1,6 +1,5 @@
 # PythonPDFtoPNG
-
-A simple Python script to convert a PDF to PNG.
+> A simple Python script to convert a PDF to PNG.
 
 ## Prerequisites
 
