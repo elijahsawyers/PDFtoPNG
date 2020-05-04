@@ -20,7 +20,7 @@ pip install -r requirements.txt
 To run the script, pass in the PDF file path and name as the first command-line argument, and pass in the file path and name of where to save the converted PNG as the second command-line argument. 
 
 ```
-python PDFConverter.py ~/path/to/convert/PDFFileName.pdf ~/path/to/save/PNGFileName.png
+python converter.py ~/path/to/convert/PDFFileName.pdf ~/path/to/save/PNGFileName.png
 ```
 
 ## Build With
