@@ -1,5 +1,5 @@
 # PythonPDFtoPNG
-> A simple Python script to convert a PDF to PNG.
+> A simple Python script to convert a PDF to a PNG.
 
 ## Prerequisites
 
@@ -7,13 +7,20 @@ Ensure that you have ImageMagick and Ghostscript installed. If not, follow the i
 
 ## Setup
 
-Create a virtual environment, install requirements, and run the script.
+Create a virtual environment and install the project requirements.
 
 ```
 python3 -m venv venv
 . venv/bin/activate
 pip install -r requirements.txt
-python PDFConverter.py PDFFileName PNGFileName
+```
+
+## Running the script
+
+To run the script, pass in the PDF file path as the first command-line argument, and pass in the PNG file path as the second command-line argument. 
+
+```
+python PDFConverter.py PDFFileName.pdf PNGFileName.png
 ```
 
 ## Build With
